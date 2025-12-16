@@ -7,7 +7,11 @@
 /storage/pail
 /public/vendor
 /vendor
-.env
+# Environment files
+.env*
+!.env.example
+!.env.*.example
+!.env.testing
 .rnd
 .env.backup
 .env.production
@@ -29,4 +33,3 @@ yarn-error.log
 /bootstrap/cache
 /node_modules
 .editorconfig
-phpunit.xml
